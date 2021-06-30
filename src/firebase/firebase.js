@@ -2,12 +2,7 @@ import firebase from 'firebase/app';
 import 'firebase/firestore';
 import 'firebase/auth';
 const config = {
-  apiKey: 'AIzaSyAX4PgCtUCOWb_Hczo7Og2w05g28yxR2eA',
-  authDomain: 'login-auth-project-b8e98.firebaseapp.com',
-  projectId: 'login-auth-project-b8e98',
-  storageBucket: 'login-auth-project-b8e98.appspot.com',
-  messagingSenderId: '619427780343',
-  appId: '1:619427780343:web:e0a2ede1be7ba11f0025f2',
+  // google js SDK
 };
 
 firebase.initializeApp(config);
